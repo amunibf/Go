@@ -1,0 +1,13 @@
+# GET http://localhost:8000/api/books
+
+
+POST http://localhost:8000/api/books/ HTTP/1.1
+Content-Type: : application/json
+{
+    "Isbn": "61153",
+    "Title": "Book Three",
+    "Author": {
+      "Firstname": "Lang",
+      "Lastname": "Go"
+    }
+}
